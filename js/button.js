@@ -1,8 +1,3 @@
-this.$ = this.jQuery = jQuery.noConflict(true);
-$("iframe[name='result']").each(function() {
-    this.sandbox += ' allow-modals';
-});
-
 
 $(document).ready(function () {
 	res = 0;
