@@ -2,7 +2,6 @@ $(document).ready(function () {
 	res = 0;
 	$(".noselect").on("click", function (event) {
 		
-		
 		if ($(event.target).is('.noselect')) {
 			$('.select').addClass('noselect');
 			$('.select').removeClass('select')
