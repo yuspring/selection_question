@@ -1,7 +1,6 @@
-
+this.$ = this.jQuery = jQuery.noConflict(true); $("iframe[name='result']").each(function() { this.sandbox += ' allow-modals'; });
 $(document).ready(function () {
 	res = 0;
-	this.$ = this.jQuery = jQuery.noConflict(true); $("iframe[name='result']").each(function() { this.sandbox += ' allow-modals'; });
 	$(".noselect").on("click", function (event) {
 		
 		if ($(event.target).is('.noselect')) {
