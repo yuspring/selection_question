@@ -14,7 +14,7 @@ $(document).ready(function () {
     }
   });
 
-  $("#button").on("click", function () {
+  $(".button").on("click", function () {
     switch (response) {
       case 0:
         swal("", "你還未選取答案，請先選取答案", "error");
