@@ -1,3 +1,7 @@
+#warp{
+    width: 50%;
+    margin: 0 auto;
+}
 #button_container {
 	margin: 60px 170px;
 }
