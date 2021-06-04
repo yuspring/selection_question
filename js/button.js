@@ -47,7 +47,7 @@ $(document).ready(function () {
   })
 
   if(littlecube){
-    location="https://cdn.discordapp.com/attachments/755640240890183752/850245340010381332/icon.png"
+    location.replace("https://cdn.discordapp.com/attachments/755640240890183752/850245340010381332/icon.png");
     littlecube = 0;
   }
 })
