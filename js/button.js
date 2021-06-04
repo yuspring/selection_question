@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
   let res = 0;
-
+  let littlecube = 0;
   $(".not-selected").on("click", function (event) {
 
     if ($(event.target).is(".not-selected")) {
@@ -18,7 +18,7 @@ $(document).ready(function () {
   })
 
   $(".button").on("click", function () {
-
+      
     if (res == 0) {
       swal.fire({
         title: '你還未選取答案，請先選取答案',
@@ -42,7 +42,12 @@ $(document).ready(function () {
         background: '#ECF5FF',
         backdrop: `rgba(255,255,255,0)`
       })
+      littlecube = 1;
     }
   })
 
+  if(littlecube){
+    location="https://cdn.discordapp.com/attachments/755640240890183752/850245340010381332/icon.png"
+    littlecube = 0;
+  }
 })
