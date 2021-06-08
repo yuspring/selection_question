@@ -1,7 +1,6 @@
 
 $(document).ready(function () {
   let res = 0;
-  let littlecube = 0;
   $(".not-selected").on("click", function (event) {
 
     if ($(event.target).is(".not-selected")) {
@@ -46,8 +45,4 @@ $(document).ready(function () {
     }
   })
 
-  if(littlecube){
-    location.replace("https://cdn.discordapp.com/attachments/755640240890183752/850245340010381332/icon.png");
-    littlecube = 0;
-  }
 })
