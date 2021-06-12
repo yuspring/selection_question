@@ -41,7 +41,6 @@ $(document).ready(function () {
         background: '#ECF5FF',
         backdrop: `rgba(255,255,255,0)`
       })
-      littlecube = 1;
     }
   })
 
